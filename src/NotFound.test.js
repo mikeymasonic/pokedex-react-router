@@ -1,9 +1,9 @@
 import React from 'react';
-import List from './List';
+import NotFound from './NotFound';
 import renderer from "react-test-renderer";
-test('renders List.js correctly', () => {
+test('renders NotFound.js correctly', () => {
   const tree = renderer
-  .create(<List />)
+  .create(<NotFound />)
   .toJSON();
   expect(tree).toMatchSnapshot();
 });

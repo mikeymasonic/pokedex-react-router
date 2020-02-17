@@ -10,6 +10,7 @@ import Detail from './Detail.js';
 import About from './About.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
+import NotFound from './NotFound.js';
 
 export default class App extends Component {
   render() {
@@ -26,6 +27,7 @@ export default class App extends Component {
               <Route exact path=":pokemon?/:page?" component={List} />  
               <Route exact path="/about-me/about" component={About} />
               <Route exact path="/detail/:pokeid?/" component={Detail} />
+              <Route component={NotFound}/>
           </Switch>
   </Router>
   <Footer />
