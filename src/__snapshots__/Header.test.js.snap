@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header.js correctly 1`] = `
+<div>
+  <header>
+    <a
+      href="../"
+    >
+      <img
+        alt="Pokemon"
+        className="logo"
+        src="https://i.ebayimg.com/images/g/8bMAAOSwxp9W-TVs/s-l400.jpg"
+      />
+    </a>
+    <h1>
+      Pokedex
+    </h1>
+  </header>
+</div>
+`;
