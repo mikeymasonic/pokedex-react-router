@@ -57,7 +57,7 @@ export default class List extends Component {
     }
 
     render() {
-        const pokeNode = this.state.pokeDex.map(pokemon => <Link to={`detail/${pokemon._id}`}> <PokeItem pokemon={pokemon} /> </Link>)
+        const pokeNode = this.state.pokeDex.map(pokemon => <Link to={`detail/${pokemon._id}`}key={pokemon._id}> <PokeItem pokemon={pokemon} /> </Link>)
         
         return (
             <div>
